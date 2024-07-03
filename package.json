@@ -7,6 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --watch app.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Gabbi <gabbi.erazo1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "uuid": "^10.0.0"
+  }
 }
